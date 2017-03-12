@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="/js/love.js"></script>
+<html lang="zh">
+    <head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.0 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            风鳗·汤团·年夜饭 | 
+        
+        梦の岛 de ROYIANS
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    <!-- Highlight -->
+    <link href=/css/prism.css rel="stylesheet" />
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="Joshua">
+    <meta name="description" content="约书亚的私人博客">
+    <meta name="keywords" content="FM238391,年夜饭">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="梦の岛 de ROYIANS">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://royians.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="风鳗·汤团·年夜饭 | 梦の岛 de ROYIANS">
+    <meta property="og:description" content="约书亚的私人博客">
+    <meta property="og:article:tag" content="年夜饭"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/css/material.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Cuprum, zz, Roboto, zz,zz, zz, zz, zz, zz, zz;;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+    <link rel="stylesheet" href="/css/highlight/Arta.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/queue.js"></script>
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write('<link rel=\"stylesheet\" href=\"/css/uc.css\">');
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+                  <!--Live 2D-->
+                  <canvas id="live2dcanvas" width="300" height="600" class="live2d"></canvas>
+<script type="text/javascript" src="/live2d/script"></script><script type="text/javascript">live2dStart("live2dcanvas","/live2d/z16/z16.model.json");</script>
+<style>
+.live2d{
+  position: fixed;
+    bottom: -30px;
+    right: 0px;
+    z-index: 999;
+    width: 150px;
+    height: 300px;
+  pointer-events: none;
+}
+</style>
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#作者-黄昱宁"><span class="post-toc-number">1.</span> <span class="post-toc-text">作者/黄昱宁</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+<!--push-->
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://photo.tuchong.com/1726275/f/18179701.jpg)">
+    
+            <p class="article-headline-p">
+                风鳗·汤团·年夜饭
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Joshua</strong>
+        <span>2月 02, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">其他方式进入梦境</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC3UlEQVR42u3aW3LiQBAEQO5/6d0DeIGqHrEWM6kvBwjROY5wux+PP0deD2xsbGxsbGxsbOxbsh/x9fP+Z6/84yuDJzyL59nT8pixsbGxT2C/+dMfhNWGmxxB/srrmLGxsbHPYb8mrSSwFvkmFZUxY2NjY2O/Dm6pPFgofrCxsbGx/08Cy4+sjQEbGxsbe6VBMysz1u//tV4aNjY29u3Z7aD3Dj//wnwbGxsb+5bs9StJLe1aT/vZKE5sbGzsTdltyz4Zvq4fX1FgxGtD2NjY2Huzk9XJPLUk5UQ+Ns6HEG/uwcbGxt6UnQTXDn2T0JMUuPILiJpK2NjY2FuwV0qOz61XrpQ3l01FsLGxsb+E/Tq15CXK7MjyxJaXJXXexsbGxv5y9ie+LFmpX18MasfA2NjY2Luy27Lh2kPJC5iVITQ2Njb2CexZy36WzD4xVMDGxsY+mZ2v1OSlRfLuyshhth6EjY2NvSt7/QjagmRlcJsfdF2BYWNjY38tu12paddrZks/eaor3sXGxsbemj1rMCVP+MQgoR0PY2NjY5/ArhcZ4zQzaz/lg+GLN5WwsbGxv5CdDFOH//qXizX5cHd2BNjY2Ni7svPQrzqstp00W/rBxsbGPoedN5LaVv7K8DiJ6uK8jY2Njb0FO28DJc2g9mmzBlNxWNjY2NibstvGfTvWXW9azca6dQWGjY2N/eXstvWfYFbaQ+3CUHT02NjY2FuzZ6OCZDTblhDtMRWfxcbGxj6GvVJI5AXJ63FCPpbIxxXY2NjYu7Lba1ZOJI2h9s46yWFjY2Nvym5Twmzom7f41wfA9XgAGxsbewt2nrRmpULy/OFKZT5IwMbGxj6APUsz7buzI74gxWJjY2Njl/esJMV6HSdpV2FjY2NjlwXMVY2hWSTY2NjYZ7Lz4W7y2fbdfGCcpz1sbGzsc9izls3K4mZexsySFjY2NvY57HMubGxsbGxsbGxs7NtcfwHaMElLK1G8BQAAAABJRU5ErkJggg==">
+        </ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/年夜饭/">年夜饭</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;次进入梦境
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=风鳗·汤团·年夜饭&url=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 围脖
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=风鳗·汤团·年夜饭&url=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html&via=Joshua" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 G+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html&title=风鳗·汤团·年夜饭" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=梦の岛 de ROYIANS&title=风鳗·汤团·年夜饭&summary=约书亚的私人博客&pics=http://royians.github.io/img/favicon.png&url=http://royians.github.io/2017/02/02/风鳗·汤团·年夜饭/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 企鹅
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://royians.github.io//2017/02/02/风鳗·汤团·年夜饭/index.html&text=风鳗·汤团·年夜饭" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<div align="center"><font size="2">每个春节的记忆都是从外婆撕下一张日历，在背面上写下“冷盘”两个字开始的。</font></div>
+
+</blockquote>
+<h4 id="作者-黄昱宁"><a href="#作者-黄昱宁" class="headerlink" title="作者/黄昱宁"></a><div align="right">作者/黄昱宁</div></h4><p>&emsp;&emsp;童年，每个春节的记忆，都是从外婆撕下一张日历，在背面上写下“冷盘”两个字开始的。倒推回去，那一天离年三十至少还有一个半月。</p>
+<p>&emsp;&emsp;外婆幼时不识字，母亲说她是在生了一大堆孩子之后，才靠解放后的“妇女识字班”学会读写，次次都考第一。我没见过外婆在别处施展，但年夜饭菜单上的字迹如今想来仍是历历在目。没有错别字，一笔一划都工整而实在，仿佛尽力把无形的格子撑满，就像外婆起锅装盘，务必要在已经沉甸甸的小山上再码一块。</p>
+<p>&emsp;&emsp;说起来这一份菜单每年都相差无几，祖孙三代十几个人，八冷八热外加一个大砂锅和两道主食。两年的菜单之间，往往只有些微调整，比如把清炒螺蛳（加一点酱油，决不放辣）换成蛤蜊炖蛋，把苔条花生改作油炸龙虾片。后者虽然在年夜饭的大文章里，最多只是一段凑趣的花絮，烹饪过程却赏心悦目。我完全无法抵挡虾片一进滚油便绚烂盛开的景象。回想起来，那种夸张的、任由体积舒展和香味溢出的速度带着挥之不去的性感——是的，性感，如果上世纪八十年代我就知道“性感”这个词的话。</p>
+<p>&emsp;&emsp;也许，在其他省份的人看来，有那么一种明确的可以称之为“上海菜”的东西，他们把这种东西粗略界定成一大堆跌进糖罐和酱油缸里、看不清面目的肉食或者豆制品。反倒是住在上海的人，说不清正宗的上海菜究竟应该是什么样子。哪怕不计入远至川粤鲁甚至西餐的影响，单单长三角各地移民在上海家常锅灶上的微妙融合与差别，也不是用一句“浓油赤酱”便可以概括的。比如我们家的年夜饭，若拿服装比拟，则里子属于宁波人（我的母系亲属都是宁波裔），套一件上海“本帮菜”的背心，里子露一半藏一半。我们家的菜一点也不甜，但老宁波那种咸到骨头里的狠劲也被消解了大半。地道的宁波“下饭榔头”——臭冬瓜或者苋菜梗——由于受到我母亲那一代的抵制（他们都出生在上海），一直在我们家绝迹，我儿时只能偶尔听外婆念叨两句。在宁波重口味系列里，黄泥螺是我们家老少咸宜的底线。</p>
+<p>&emsp;&emsp;等到西北风刮至最猛烈时，外公会去菜场，弄回一条中等偏大的海鳗。头尾切下清蒸即食，中段洗净，抹上盐，用棉绳串起来。如果要描述这种鳗鲞的制作方法，只需要在我们家残存的甬语词库里取出一个名作动的“风”字就可以了。</p>
+<p>&emsp;&emsp;“家伟，”外婆吩咐二舅，“把鳗‘风’起来，日脚（日子）要算好。”</p>
+<p>&emsp;&emsp;于是二舅就把那段鳗往阳台上一挂，每天负责去捏一捏、闻一闻。万一那年气温偏高，鳗肉的色泽在年三十之前就开始泛黄，外婆就只好一叠连声地叹着气提前把它取下来吃掉，同时在菜单上划掉那个叫“鳗鲞”的冷盘。只有在气温、湿度和风力都恰到好处的年份，我们才能在年夜饭桌上吃到雪白的、韧劲十足的、盐分含量恰巧能完美呈现鱼鲜的鳗鲞，谋事在人而成事在天。好玩的是，对面阳台总是跟我们家踩着同样的节奏，他们也会在这段时间挂上更具淮扬特色的风鹅或者风鸡（鹅在上海菜场很少见，所以常常只能退而求其次）。这戏码年年上演，阳台与阳台之间，乡愁的旗帜互相叫板，迎着西北风傲然飘扬。</p>
+<p>&emsp;&emsp;儿时的年夜饭，DIY程度之高，远远超过现在的想象。在前超市前冰箱时代，无论是熟菜还是半成品都匮乏，准备一桌好菜不仅需要良好的家庭传统和熟能生巧的经验，也需要细致的人力调配和时间管理。外婆当然画不出流程图，可她脑子里装着精密的倒计时仪，知道用烧碱发鱿鱼干、让老蚕豆发出芽（炖得酥烂的发芽豆配雪里蕻也是宁波家常菜中的一绝）需要几道工序，从哪一天开始操作，也知道大砂锅里的肉皮肉丸百叶结须得早早准备，才不至于在最后一天占掉水槽和油锅的宝贵空间。最后两天，碗橱辟出越来越多的地盘放自制的半成品，比如用水煮过一道、等待酱烧的鸭子，煎炸完毕等待再加工的青鱼块，以及制作八宝饭不可或缺的豆沙（这可是用赤豆煮烂以后用纱布一层层滤净的纯手工制品）、红丝绿丝和瓜子仁。这时候外婆不仅得照看厨房进度，还得留一个心眼防备几个被香味勾引出整整一年馋虫的孙子孙女——那几天，我们有事没事老爱绕着碗橱走。</p>
+<p>&emsp;&emsp;春卷的荠菜肉丝馅和蛋饺总是安排在小年夜完成。母亲用金属勺子做蛋饺的手艺全家公认，所以那天她总是忙到很晚。蓝绿色火焰顶上，勺子里的蛋液凝成薄薄一层，我喜欢凑在边上，抢着舀起一小勺肉馅倒在上面，然后看着母亲灵巧地一抖手腕，另一只手飞快地用筷子合拢蛋皮，就像安抚一只振翅欲飞的黄粉蝶。</p>
+<p>&emsp;&emsp;大年夜当天清早，最能决定家宴成败的原料庄严抵达：一只正值壮年的母鸡。鸡不能太老，否则肉身不宜白切；也不能太嫩太小，否则没法满足一家老小的胃口。阉鸡最美味，但很少能买到，多半还是得凭着经验在母鸡里挑一只个头合适的带回来。大人忙成一团，有烧水准备拔毛的，有到处找菜刀剪子的，我分配到的任务是找一只空碗，盛少许温水，抽一根筷子，单等着鸡血滴下的那一刻接在下面，同时用筷子在碗里沿顺时针方向画圈，如此收集的鸡血才能在入汤时保持嫩滑。</p>
+<p>&emsp;&emsp;选好一只鸡的结果是成全三个菜。大火水煮，拎出鸡身切块蘸酱油，就成了最能检验鸡肉质地的白斩鸡；留下那一锅泛着黄澄澄鸡油的好汤，外加鸡头鸡脚鸡血，就构成了大砂锅的主心骨——若没有这锅汤，之前备好的肉皮肉丸百叶结粉丝鸡毛菜，就只是失魂落魄的散兵游勇；鸡肚子里的那一副胗肝心肠，最适合与纤细碧绿的本地芹菜爆炒，上海人唤作“炒时件”，若论鲜香清爽，其他用下水做的菜都及不上。</p>
+<p>&emsp;&emsp;但年夜饭远远不是春节饕餮之旅的终点。晚餐吃罢，电视开着，但没有人认真看。有人用湿布和干布细细抹了一遍八仙桌，白的粉、黑的馅次第摊开。于是，一年一度、筹备期长达一个多月的汤团大戏终于迎来了高潮。<br>这确乎是一件大事，几乎可以看成是宁波人在上海的某种标明身份的集体仪式。那时，汤团之于我们，决不是装在塑料袋里的文雅的速冻食品——前者强调的是“芝麻”，而我们宁波人却理直气壮地以“猪油”命名。我们认定，那种用大块大块的肥膘熬成的板油才是宁式汤团的灵魂。“猪油汤团”的整套工序耗时长久，需要一家大小的配合。把时钟倒拨到一个多月前，外婆会先到斜对门的老宁波窦家去串个门。窦家的大石磨是镇宅之宝，每年过年前都要在街坊里排个班，轮流出借。到了约定的那一天，两个气血方刚的舅舅抬起石磨往家扛，头上冒着汗，嘴里喊着一二三。</p>
+<p>&emsp;&emsp;那真是个力气活。外婆事先早就挑选好成色过关的生糯米，淘洗干净。三个舅舅外加我爸爸和姨夫，五个男人从早到晚，通宵轮班将糯米磨碎。那天晚上我总是磨蹭到很晚，我喜欢听水流滴进石磨发出的轻微如同叹气的声音。男人们年年推一次磨，个个都是有经验的熟练工，一边推一边不断加水，稍有偷懒造成水分不足，就会大大影响后面的工序。我在推磨的声音中入睡，第二天醒来就看见厨房里冒出一脸盆一脸盆乳白色悬浊液。外婆把它们一点点盛进布袋里，搁到阳台上沥干水分，两周以后开始变出水磨粉的样子。只有洁白细致不结块的颗粒，才能证明那天晚上的劳动质量达到外婆的标准。</p>
+<p>&emsp;&emsp;女人们也没闲着。在那个月里，她们会将板油剥皮抽筋，用小石臼碾碎刚刚炒熟的芝麻，拌上绵白糖（绝对不能是砂糖），三者合一，反复揉捏成“黑洋沙”，搓成一个个乌黑的小圆子。年夜饭过后，大人小孩都围坐桌边，有人将粉和上适量（到底怎样才算“适量”，反正我从来没搞清楚）清水，捏成长长的糯米条，再掐成一段段当汤团皮。承担下一道工序的人手脚一定要快，在水分走失之前将皮经过一番揉捏后塑成杯状，迅速塞入馅，小心翼翼地将皮合拢、捏实、搓圆——用我表弟的说法就是“把黑的包进白的里”。水与粉、轻与重、谨慎与果断之间的分寸拿捏，在这个过程中体现得淋漓尽致。只会包饺子的人第一次上手裹汤团，多半会把“白的”揉进“黑的”，变成一坨黑白相间的雨花石，黏在手上甩也甩不掉。</p>
+<p>&emsp;&emsp;如此一步步跟下来，我每天都能根据鼻腔里充满的新鲜气味，判断汤团工程进行到哪个步骤。最终，大年初一早上，当我咬开那层薄薄糯糯的皮儿、舌头被墨黑的馅烫得起泡时，此前漫长的辛苦铺垫便在瘫软的味蕾上一层层展开。年三十晚上裹好的汤团初一早上煮，初一晚上再裹一批留给初二，依此类推。吃到初十左右，当肠胃开始对高油重糖暗暗生出审美疲劳时，“黑洋沙”馅的储备也恰巧耗尽，剩下的水磨粉或是搓成更小的圆子，加入酒酿煮汤，或是压扁放到油里轻炸，再蘸少许绵白糖吃。如此夹花着再吃几日，元宵一到，这个年就算过完了。</p>
+<p>&emsp;&emsp;当我终于学会包出一枚完美的猪油汤团之后，我们家便搬离了那片区域。新房子周围的人家都没有大石磨，我的外婆也已经老得没力气指挥这么复杂的工程。再后来，超市里出现了速冻汤圆，只要你乐意，哪怕在三伏天都可以享受这份大工业提供的便利。你不需要用舌头分辨皮与馅的层次，也没时间让味觉唤起视觉和触觉的双重记忆，更不必承担被等待提升的期望值。大概这样也好。</p>
+<div align="right"><em>本文选自黄昱宁新书《假作真时》</em></div>
+
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
+    }
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
+    }
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread"
+        data-thread-key=""
+        data-url="http://royians.github.io/2017/02/02/风鳗·汤团·年夜饭/"
+        data-title="风鳗·汤团·年夜饭">
+    </div>
+    <!-- 多说评论框 end -->
+</div>
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/02/02/TF‘s 2017/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            未来
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="Joshua's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        (๑• . •๑)
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:1294686101@qq.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                拾梦厅
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    梦の线
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">11</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                梦の种
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/数学/">数学<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/未分类/">未分类<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/梦の思/">梦の思<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/梦の物/">梦の物<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/梦の音/">梦の音<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/编织中的梦/">编织中的梦<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/About" title="关于·我">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于·我
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/daily_pic" title="图·拾光">
+                
+                    <i class="material-icons sidebar-material-icons">filter_hdr</i>
+                
+                图·拾光
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="梦·标签">
+                
+                    <i class="material-icons sidebar-material-icons">whatshot</i>
+                
+                梦·标签
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+<!-- Uptime -->
+<script>
+function secondToDate(second) {
+    if (!second) {
+        return 0;
+    }
+    var time = new Array(0, 0, 0, 0, 0);
+    if (second >= 365 * 24 * 3600) {
+        time[0] = parseInt(second / (365 * 24 * 3600));
+        second %= 365 * 24 * 3600;
+    }
+    if (second >= 24 * 3600) {
+        time[1] = parseInt(second / (24 * 3600));
+        second %= 24 * 3600;
+    }
+    if (second >= 3600) {
+        time[2] = parseInt(second / 3600);
+        second %= 3600;
+    }
+    if (second >= 60) {
+        time[3] = parseInt(second / 60);
+        second %= 60;
+    }
+    if (second > 0) {
+        time[4] = second;
+    }
+    return time;
+}
+</script>
+<script type="text/javascript" language="javascript">
+function setTime() {
+    var create_time = Math.round(new Date(Date.UTC(2017, 01, 04, 20, 14, 19)).getTime() / 1000);
+    var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+    currentTime = secondToDate((timestamp - create_time));
+    currentTimeHtml = currentTime[1] + ' 天 '
+            + currentTime[2] + ' 时 ' + currentTime[3] + ' 分 ' + currentTime[4]
+            + ' 秒';
+    document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+}    setInterval(setTime, 1000);
+</script>
+<!-- Uptime End -->
+
+<!-- Theme Material -->
+
+  <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+      <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+          Tema que se usa - Material
+          <span class="sidebar-badge badge-circle">M</span>
+      </div>
+  </a>
+
+<!-- My Radio -->
+
+  <a href="http://www.lizhi.fm/238391" class="sidebar-footer-text-a">
+      <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+          Yo tengo
+          <span class="sidebar-badge badge-circle">R</span>
+    </div>
+  </a>
+  <!-- Up Time -->
+  
+    <a class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+          梦の岛已开放<span class="sidebar-badge" id="htmer_time"></span>
+    	  </div>
+    </a>
+      
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+    <span id="footer-image">
+        <a href="http://lizhi.fm/238391" target="_blank" title="logo">
+            <img src="/img/fmlogo.png" alt="logo">
+        </a>
+    </span>
+
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/ROYIANS/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.png);">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/royians" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.png);">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com/people/meng-zhu-75-43/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-zhihu.png);">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Bilibili -->
+    
+        <a href="http://space.bilibili.com/32267413/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-bilibili.png);">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://telegram.me/royians" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-telegram.png);">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;梦の岛 de ROYIANS
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Por ofrecer <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Tema - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+                 </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+<script src="/js/highlight.min.js"></script>
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/js.min.js"></script>
+<script src="/js/nprogress.js"></script>
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#FF4081'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #FF4081, 0 0 15px #FF4081'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#FF4081',
+        'border-left-color': '#FF4081'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    <script src="/js/smoothscroll.js"></script>
+
+
+
+
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+    <!-- 多说公共 js 代码 start -->
+    <script type="text/javascript">
+        var duoshuoQuery = {
+            short_name: 'royians'
+        };
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = 'https://static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共 js 代码 end -->
+
+
+
+
+
+<!-- Swiftye -->
+
+
+<!-- Local Search-->
+
+    <script>
+    var searchFunc = function(path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: 'xml',
+            success: function( xmlResponse ) {
+                // get the contents from search data
+                var datas = $( 'entry', xmlResponse ).map(function() {
+                    return {
+                        title: $( 'title', this ).text(),
+                        content: $('content',this).text(),
+                        url: $( 'url' , this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function() {
+                    var str='<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = '';
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function(data) {
+                        var isMatch = true;
+                        var content_index = [];
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g,'').toLowerCase();
+                        var data_url = data.url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if(data_title !== '' && data_content !== '') {
+                            keywords.forEach(function(keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if( index_title < 0 && index_content < 0 ) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += '<li><a href="'+ data_url +'" class="search-result-title" target="_blank">'+ data_title;
+                            var content = data.content.trim().replace(/<[^>]+>/g, '');
+                            if (first_occur >= 0) {
+                                // cut out characters
+                                var start = first_occur - 6;
+                                var end = first_occur + 6;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 10;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function(keyword) {
+                                    var regS = new RegExp(keyword, 'gi');
+                                    match_content = match_content.replace(regS, '<em class="search-keyword">'+keyword+'</em>');
+                                })
+                                str += '<p class="search-result">' + match_content + '...</p>' +'</a>';
+                            }
+                        }
+                    });
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    }
+</script>
+
+
+    <script>
+        var inputArea = document.querySelector('#search');
+        var getSearchFile = function() {
+            var path = 'search.xml';
+            searchFunc(path, 'search', 'local-search-result');
+        }
+
+        if(inputArea) {
+            inputArea.onfocus = function() {
+                getSearchFile();
+            }
+        }
+    </script>
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+
+                </main>
+            </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+        </body>
+    
+</html>
