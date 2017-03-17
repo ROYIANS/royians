@@ -32,6 +32,7 @@
 /*************/
 @import url('../fonts/fonts.css');
 @import url('../css/prism.css');
+@import url('../js/baidu.js');
 p {
   font-family:  Cuprum, zz , Roboto;
 }
