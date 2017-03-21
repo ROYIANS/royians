@@ -222,16 +222,55 @@
         <!-- Paradox Header -->
         <!-- Daily pic -->
 <div class="mdl-card mdl-shadow--2dp daily-pic mdl-cell mdl-cell--8-col index-top-block">
+  <link rel="stylesheet" href="/css/typinyin.css">
+   <script src="/js/typinyin.js"></script>
+<script>
+window.onload = function(){
+var demo = new Typinyin();
+demo.attach('#typinyin_demo'); // 绑定元素
+demo.setOptions({
+ sentences: [
+   {
+     ch: ["欢迎",{pause: 1500}/* 暂停1500毫秒 */,"来到","梦","之岛",{del: 4}/* 删除两个字符 */,"梦の岛"],
+     py: ["huanying","","laidao","meng","zhidao","","mengzhidao"],
+   }, {
+     ch: ["ROYIANS.GitHub.io"],
+     py: ["ROYIANS.GitHubbbb\b\b\b.io"], // 用"\b" 来删除一个字符
+   }, {
+     ch: ["一个","放置你的梦想","的","、","梦幻","国度"],
+     py: ["yige",{pause: 281},"fangzhinidemengxiang",{pause: 281},"de","、","menghuan","国度"],
+   }, {
+     ch: ["由","ROYIANS","用","心","\b","❤","建造"], // 用"\b" 来删除一个字符
+     py: [["yoiii",{pause: 281},{del: 3}/* 暂停281毫秒后删除三个字符 */,"u"],"ROYIANS","yong","xin","","xin","jianzao"],
+   },{
+    ch: ["梦の岛","へようこそ"],
+    py: ["mengzhidao","balahbalah"],
+   }
+ ], // 需要输入的句子
+ startDelay: 1000, // 启动延时，以毫秒记
+ typeSpeed: 100, // 打字速度，以毫秒记
+ pause: 1000, // 每一句话打完后的停顿时间，以毫秒记
+ backSpeed: 100, // 删除文字的速度，以毫秒记
+ cursorChar: "|", // 光标字符
+ loop: false, // 是否循环播放
+});
+demo.finished = function() {
+ console.log("Typinyin.js Demo 演示完毕！");
+}; // 输入完毕时执行，loop 为 true 的时无效
+demo.init(); // 初始化并开始打字
+}
+</script>
 
     <!-- Pic & Slogan -->
     <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
         <p class="index-top-block-slogan"><a href="/daily_pic">
-        
+<a href=""><span id="typinyin_demo"></span>        
             
-                梦の岛へようこそ<br>Bienvenido al sueño
+                 <br>Bienvenido al sueño
             
         
-        </a></p>
+ </a>
+</p>
     </div>
 
     <!-- Avatar & Name -->
@@ -1348,7 +1387,7 @@ function setTime() {
             </script>
             &nbsp;梦の岛 de ROYIANS
         </div>
-
+<div id="copyright" class="footer-develop-div">梦の岛使用 <a href="/creativecommons.html" target="_blank" class="footer-develop-a">知识共享协议 署名 - 非商业性使用 - 相同方式共享 3.0 未本地化版本</a> 进行许可</div>
         <!-- Paradox Footer Right Section -->
 
         <!--
