@@ -4,6 +4,26 @@
   
     
     <entry>
+      <title><![CDATA[C++ Learning]]></title>
+      <url>http://royians.github.io/2017/03/25/C-Learning/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><font size="20"><strong>L</strong></font>earning C++ is an adventure of discovery, particularly because the language accommodates<br>several programming paradigms, including object-oriented programming,<br>generic programming, and the traditional procedural programming.</p>
+<script src="/js/prism.js"></script>
+
+<!--
+   <pre class="line-numbers language-xxx"><code>xxx</pre></code>
+   -->
+]]></content>
+      
+        <categories>
+            
+            <category> 梦の程式 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[任意门，时光机和竹蜻蜓]]></title>
       <url>http://royians.github.io/2017/03/16/%E4%BB%BB%E6%84%8F%E9%97%A8%EF%BC%8C%E6%97%B6%E5%85%89%E6%9C%BA%E5%92%8C%E7%AB%B9%E8%9C%BB%E8%9C%93/</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/js/prism.js"></script>

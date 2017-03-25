@@ -11,7 +11,7 @@
     
     <title>
         
-            Tags | 
+            C++ Learning | 
         
         梦の岛 de ROYIANS
     </title>
@@ -50,7 +50,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://royians.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Tags | 梦の岛 de ROYIANS">
+    <meta property="og:title" content="C++ Learning | 梦の岛 de ROYIANS">
     <meta property="og:description" content="约书亚的私人博客">
     
 
@@ -220,6 +220,41 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
 <!--push-->
 
 <script>
@@ -238,57 +273,243 @@
 </script>
 <!-- Layouts -->
 
-    <!-- Tags Cloud -->
-    <style>
-    #bottom{
-        position: relative;
-    }
+    <!-- Post Module -->
+    <div class="material-post_container">
 
-    @media screen and (max-width: 480px) {
-        .material-tagscloud{
-            margin: 6em 2em 0;
-        }
-    }
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
 
-    .material-tagscloud a{
-        text-decoration:none;
-        padding: 1px 9px;
-        margin: 9px 1px;
-        line-height: 40px;
-        white-space: nowrap;
-        transition: .6s;
-        opacity: .85;
-    }
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://ww1.sinaimg.cn/large/8595b112ly1fdzcw1vmuqj21hc0xcafl.jpg)">
+    
+            <p class="article-headline-p">
+                C++ Learning
+            </p>
+        </div>
 
-    .material-tagscloud a:hover{
-        transition: .6s;
-        opacity: 1;
-        background: #FAFAFA;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-    }
-</style>
 
-<div class=" material-tagscloud">
-    <div class="material-post mdl-grid">
-        <a href="/tags/回家/" style="font-size: 16px; color: #757575">回家</a> <a href="/tags/回忆/" style="font-size: 16px; color: #757575">回忆</a> <a href="/tags/小说/" style="font-size: 16px; color: #757575">小说</a> <a href="/tags/年夜饭/" style="font-size: 16px; color: #757575">年夜饭</a> <a href="/tags/梦想/" style="font-size: 16px; color: #757575">梦想</a> <a href="/tags/正太/" style="font-size: 16px; color: #757575">正太</a> <a href="/tags/物理/" style="font-size: 16px; color: #757575">物理</a> <a href="/tags/音乐-Libera/" style="font-size: 35px; color: #212121">音乐 , Libera</a>
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Joshua</strong>
+        <span>3月 25, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">其他方式进入梦境</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACY0lEQVR42u3aQU4DMQwF0N7/0mWLBJT/40wYlZdVJdqMXxZj4/jxfOv1wMPDw8PDw8PDuxnvEa/P33/9+ZtH/rDb179OYsPDw8M7yfvlVfuS9FNY+W+TfZLY8PDw8M7zkmTQvrijIjhOQklseHh4eHfjtUFPCm48PDy89+DlxXT727YEx8PDw7sDL/+H/3W4bVN4koTw8PDw/oq39wJs7+fb3e/h4eH9e1490hRcgOXjAsk+o6ErPDw8vAt4SYG79vh8yGCttVEPXeHh4eFt5bWXVWtpoC3W833w8PDwTvLatmx+NbVWdrfJCQ8PD+88L99u7ZqqBbfPwsPDw7sPbxJiVPgGv82vx/Dw8PBO8tbK6Dm73TNPSHh4eHhneHkxPWn15pdq7UHj4eHhneQlzdP8UmoNuSsl4OHh4Z3n5a/y9lDaErzdBw8PD+8kb2+zYNfQwChR4eHh4R3hTR62NhzQHtkoMeDh4eFt5a2Fkjdh83BfH1+RkPDw8PAu5iVtgjy4+T4bDhcPDw/vYl4+LpC0LZKXezugUI+C4eHh4V3My1/3SVjtKEC+Z3F5hoeHh3eEl2xXt1MH5fVawY2Hh4d3hrdWyE5GBCYJKTpEPDw8vIt57Zo0bZMSPD/EokuNh4eHt5U3H7dq2xP5obSDs3h4eHgneUkyWCt58wSzrQmCh4eHd5DXjhHkDdm1C7bFhIGHh4d3M958GCsZHWj3x8PDw7s/LwkuTy15szg6Ajw8PLyDvKQZUTdVBwexdkB4eHh4Z3iTC7Ck2M1Hu57jhYeHh3c17/0WHh4eHh4eHh7eDdYHHribp47tT8kAAAAASUVORK5CYII=">
+        </ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;次进入梦境
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=C++ Learning&url=http://royians.github.io//2017/03/25/C-Learning/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 围脖
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=C++ Learning&url=http://royians.github.io//2017/03/25/C-Learning/index.html&via=Joshua" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://royians.github.io//2017/03/25/C-Learning/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://royians.github.io//2017/03/25/C-Learning/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 G+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://royians.github.io//2017/03/25/C-Learning/index.html&title=C++ Learning" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=梦の岛 de ROYIANS&title=C++ Learning&summary=约书亚的私人博客&pics=http://royians.github.io/img/favicon.png&url=http://royians.github.io/2017/03/25/C-Learning/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 企鹅
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://royians.github.io//2017/03/25/C-Learning/index.html&text=C++ Learning" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <script src="/assets/js/APlayer.min.js"> </script><p><font size="20"><strong>L</strong></font>earning C++ is an adventure of discovery, particularly because the language accommodates<br>several programming paradigms, including object-oriented programming,<br>generic programming, and the traditional procedural programming.</p>
+<script src="/js/prism.js"></script>
+
+<!--
+   <pre class="line-numbers language-xxx"><code>xxx</pre></code>
+   -->
+
+    
+
+    
 </div>
 
 
-<script>
-    var adjustFooter = function() {
-        if( ($('#bottom').offset().top + $('#bottom').outerHeight() ) < $(window).height() ) {
-            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
-            $('#bottom').css('bottom', '-' + footerBottom + 'px');
-        }
-    };
+                
 
-    $(document).ready(function() {
-        adjustFooter();
-    });
+                <!-- Post Comments -->
+                
+                    
+
+
+    <!-- 使用 DISQUS -->
+    <div id="disqus-comment">
+        <div id="disqus_thread"></div>
+<script>
+    queue.offer(function() {
+            var disqus_config = function () {
+                this.page.url = 'http://royians.github.io/2017/03/25/C-Learning/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//royians.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
+    </div>
+    <style>
+        #disqus-comment{
+            background-color: #eee;
+            padding: 2pc;
+        }
+    </style>
 
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/16/任意门，时光机和竹蜻蜓/" id="post_nav-older" class="next-content">
+            过去
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
 
 
 
@@ -545,6 +766,14 @@ function setTime() {
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
@@ -810,6 +1039,25 @@ function setTime() {
 </script>
 
 <!-- MathJax Load-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
 
                 </main>

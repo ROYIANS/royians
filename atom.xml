@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://royians.github.io/"/>
-  <updated>2017-03-17T11:35:55.125Z</updated>
+  <updated>2017-03-25T14:09:21.787Z</updated>
   <id>http://royians.github.io/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++ Learning</title>
+    <link href="http://royians.github.io/2017/03/25/C-Learning/"/>
+    <id>http://royians.github.io/2017/03/25/C-Learning/</id>
+    <published>2017-03-25T12:18:18.000Z</published>
+    <updated>2017-03-25T14:09:21.787Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;font size=&quot;20&quot;&gt;&lt;strong&gt;L&lt;/strong&gt;&lt;/font&gt;earning C++ is an adventure of discovery, part
+    
+    </summary>
+    
+      <category term="梦の程式" scheme="http://royians.github.io/categories/%E6%A2%A6%E3%81%AE%E7%A8%8B%E5%BC%8F/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>任意门，时光机和竹蜻蜓</title>
