@@ -4,14 +4,15 @@
   
     
     <entry>
-      <title><![CDATA[C++ Learning]]></title>
+      <title><![CDATA[C++ Learning CH_1]]></title>
       <url>http://royians.github.io/2017/03/25/C-Learning/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><font size="20"><strong>L</strong></font>earning C++ is an adventure of discovery, particularly because the language accommodates<br>several programming paradigms, including object-oriented programming,<br>generic programming, and the traditional procedural programming.</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><font size="20">L</font>earning C++ is an adventure of discovery, particularly because the language accommodates several programming paradigms, including object-oriented programming, generic programming, and the traditional procedural programming.<a id="more"></a></p>
 <script src="/js/prism.js"></script>
 
 <!--
    <pre class="line-numbers language-xxx"><code>xxx</pre></code>
    -->
+   <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col"><br>       <!-- Prev Nav --><br>       &lt;% if (page.prev) { %&gt;<br>           <a href="<%- config.root %><%- page.prev.path %>" id="post_nav-newer" class="prev-content"><br>               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"><br>                   <i class="material-icons">arrow_back</i><br>               </button><br>               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>               &lt;%= <strong>(‘post.newer’) %&gt;<br>           </strong></a><br>       &lt;% } %&gt;<br><br>       <!-- Section Spacer --><br>       <div class="section-spacer"></div><br><br>       <!-- Next Nav --><br>       &lt;% if (page.next) { %&gt;<br>           <a href="<%- config.root %><%- page.next.path %>" id="post_nav-older" class="next-content"><br>               &lt;%= (‘post.older’) %&gt;<br>               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"><br>                   <i class="material-icons">arrow_forward</i><br>               </button><br>           </a><br>       &lt;% } %&gt;<br>   </nav>
 ]]></content>
       
         <categories>
