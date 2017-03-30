@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://royians.github.io/"/>
-  <updated>2017-03-26T02:46:52.599Z</updated>
+  <updated>2017-03-30T11:42:31.312Z</updated>
   <id>http://royians.github.io/</id>
   
   <author>
@@ -16,11 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>最佳损友</title>
+    <link href="http://royians.github.io/2017/03/30/%E6%9C%80%E4%BD%B3%E6%8D%9F%E5%8F%8B/"/>
+    <id>http://royians.github.io/2017/03/30/最佳损友/</id>
+    <published>2017-03-30T11:27:28.000Z</published>
+    <updated>2017-03-30T11:42:31.312Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/js/prism.js&quot;&gt;&lt;/script&gt;
+
+&lt;!--
+   &lt;pre class=&quot;line-numbers language-xxx&quot;&gt;&lt;code&gt;xxx&lt;/pre&gt;&lt;/code&gt;
+   --&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=65800&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;我一直认为，小学作文的命题里藏着满满的恶意，比如《我最好的朋友》。
+    
+    </summary>
+    
+      <category term="梦の思" scheme="http://royians.github.io/categories/%E6%A2%A6%E3%81%AE%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>C++ Learning CH_1</title>
     <link href="http://royians.github.io/2017/03/25/C-Learning/"/>
     <id>http://royians.github.io/2017/03/25/C-Learning/</id>
     <published>2017-03-25T12:18:18.000Z</published>
-    <updated>2017-03-26T02:46:52.599Z</updated>
+    <updated>2017-03-30T11:41:50.841Z</updated>
     
     <summary type="html">
     
