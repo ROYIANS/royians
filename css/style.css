@@ -1776,7 +1776,7 @@ a {
 
 #scheme-Isolation .material-nav .page-number.current {
     display: block;
-    color: #666;
+    color: #333;
     text-align: center;
     margin: 0 auto;
 }
